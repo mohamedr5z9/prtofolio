@@ -2,19 +2,19 @@ import React from 'react';
 import { Calendar, Tag } from 'lucide-react';
 
 const Notes = () => {
-  const researchNotes = [
+  const Notes = [
     {
       title: 'Understanding Modern Web Application Vulnerabilities',
       date: '2024-03-15',
       tags: ['Web Security', 'OWASP'],
       excerpt: 'An analysis of emerging web application security threats and mitigation strategies...'
-    },
+    },/*
     {
       title: 'Network Protocol Analysis for Security Testing',
       date: '2024-03-10',
       tags: ['Network Security', 'Protocols'],
       excerpt: 'Deep dive into analyzing network protocols for security vulnerabilities...'
-    },
+    },*/
     {
       title: 'Advanced SQL Injection Techniques',
       date: '2024-03-05',
